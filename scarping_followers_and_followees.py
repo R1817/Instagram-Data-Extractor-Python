@@ -4,10 +4,10 @@ import pandas as pd
 
 # Creating an instance of the Instaloader class
 bot = instaloader.Instaloader()
-bot.login(user="Your_username", passwd="Your_password")
+bot.login(user="R020798", passwd="Your_password")
 
 # Loading a profile from an Instagram handle
-profile = instaloader.Profile.from_username(bot.context, 'Your_target_account_insta_handle')
+profile = instaloader.Profile.from_username(bot.context, 'https://www.instagram.com/r020798/?utm_source=ig_web_button_share_sheet')
 
 # Retrieving the usernames of all followers
 followers = [follower.username for follower in profile.get_followers()]
