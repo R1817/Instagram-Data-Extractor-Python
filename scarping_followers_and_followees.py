@@ -4,7 +4,7 @@ import pandas as pd
 
 # Creating an instance of the Instaloader class
 bot = instaloader.Instaloader()
-bot.login(user="Your_username", passwd="Your_password")
+bot.login(user="r020798", passwd="Your_password")
 
 # Loading a profile from an Instagram handle
 profile = instaloader.Profile.from_username(bot.context, 'Your_target_account_insta_handle')
